@@ -1,0 +1,83 @@
+###############
+# Visual Studio
+###############
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+###############
+# Build results
+###############
+bin/
+obj/
+**/bin/
+**/obj/
+
+########################
+# Rider / JetBrains IDE
+########################
+.idea/
+*.iml
+
+#########
+# Logs
+#########
+*.log
+
+##################
+# NuGet packages
+##################
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+###################
+# Cache and others
+###################
+*.cache
+*.DS_Store
+Thumbs.db
+
+###################
+# AppSettings
+###################
+# Не пускать конфиденциальные данные в репозиторий!
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+##################################
+# EF Core (может генерировать)
+##################################
+Migrations/
+
+##############################
+# WPF specific
+##############################
+*.g.i.cs
+*.baml
+*.g.cs
+
+##############################
+# Publish output
+##############################
+publish/
+artifacts/
+
+##############################
+# Temp / Backup files
+##############################
+*.tmp
+*.bak
+*.swp
+*.orig
+*.lock
+*.log
+
+##############################
+# ReSharper
+##############################
+_ReSharper.Caches/
